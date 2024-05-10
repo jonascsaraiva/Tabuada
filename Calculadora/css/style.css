@@ -1,0 +1,94 @@
+body {
+  font-family: "Maria", sans-serif;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  background-color: #37020495;
+}
+  
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0 auto;
+}
+  
+main > div {
+  width: 426px;
+  text-align: center;
+}
+  
+img {
+  width: 100px;
+}
+
+.jcs-display {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  color: black
+}
+  
+.jcs-numbers,
+.jcs-operations {
+  display: flex;
+  gap: 2px;
+  margin-top: 5px;
+}
+  
+.jcs-numbers > div {
+  padding: 10px 15px;
+  font-size: 18px;
+  background-color: #f1f5f6;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #202b38;
+}
+
+.jcs-numbers div:hover{
+  background-color: #37020495;
+  color: #f1f5f6;
+}
+  
+.jcs-operations > div {
+  padding: 10px 15px;
+  font-size: 18px;
+  background-color: #f7f8f1;
+  border-radius: 5px;
+  color: #202b38;
+  cursor: pointer;
+}
+
+#equalsBtn {
+  background-color: greenyellow;
+  color: black;
+}
+
+#equalsBtn:hover {
+  background-color: rgb(194, 250, 109);
+  color: gray;
+}
+
+.jcs-operations div:hover{
+  background-color: #37020495;
+  color: #f1f5f6;
+}
+  
+#clear {
+  flex: 1;
+}
+
+@media (max-width: 464px){
+  main {
+    width: 200px;
+  }
+  .jcs-operations {
+  display: flex;
+  flex-direction: column;
+  }
+  .jcs-numbers{
+    display: flex;
+    flex-direction: column;
+  }
+}

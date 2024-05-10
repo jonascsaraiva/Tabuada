@@ -1,0 +1,38 @@
+{
+    "short_name": "Tabuada",
+    "name": "Tabuada",
+    "start_url": "/Tabuada",
+    "background_color": "#37020495",
+    "display": "fullscreen",
+    "theme_color": "#000" ,
+    "description": "Tabuda que vc quiser,divide até por zero",
+    "main": "/js/script.js",
+    "icons": [
+        {
+            "src": "/assets/Logo.png",
+            "type": "image/png",
+            "sizes": "513x513",
+            "purpose": "maskable"
+        },
+        {
+            "src": "./assets/iconPagina.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/assets/screenshot.png",
+            "sizes": "371x321",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "/assets/screenshot_mobile.png",
+            "sizes": "463x400",
+            "type": "image/png",
+            "form_factor": "narrow"
+        }
+    ]
+}
